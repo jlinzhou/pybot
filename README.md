@@ -1,8 +1,8 @@
 ## 饥荒联机聊天与qq群互通
 
- 	总体思路：服务器这边有两个进程，一个进程是单纯的http服务器，用来接受饥荒的消息和发送qq群的消息，另一个是用[ nonebot ](https://nonebot.cqp.moe/ )这个qq机器人框架，用来发送饥荒的消息和接受qq群的消息，消息都是存到redis进行操作的 。
+ 	
 
-
+总体思路：服务器这边有两个进程，一个进程是单纯的http服务器，用来接受饥荒的消息和发送qq群的消息，另一个是用[ nonebot ](https://nonebot.cqp.moe/ )这个qq机器人框架，用来发送饥荒的消息和接受qq群的消息，消息都是存到redis进行操作的 。
 
 
 
@@ -37,7 +37,7 @@ python  runbot.py
 
 ### 3.steam mod链接
 
-
+https://steamcommunity.com/sharedfiles/filedetails/?id=1955543584
 
 
 
